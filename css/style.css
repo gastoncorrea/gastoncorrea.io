@@ -1,10 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar-fijo{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
 .fondo{
     background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    padding-top: 150px;
 }
 .avatar{
     width: 200px;
     border-radius: 50%;
-}
-.linea{
-    display: inline;
 }
